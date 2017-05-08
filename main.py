@@ -18,3 +18,5 @@ for i in range(0,len(conteudo['items'])):
     print tagp
     bodies = conteudo['items'][i]['body']
     print bodies
+    bodies = conteudo['items'][i]['body']
+    print bodies
