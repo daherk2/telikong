@@ -22,6 +22,7 @@ def check_stackoverflow(problema):
         print bodies
         idq = conteudo['items'][i]['question_id']
         base_answers = 'https://api.stackexchange.com/2.2/questions/'+str(idq)+'/answers?order=desc&sort=activity&site=stackoverflow'
+        print base_answers
         r = req.get(base_answers)
         cont_answer = u' '.join((r.text, '')).encode('utf-8').strip()
         data_answer = json.loads(cont_answer)
