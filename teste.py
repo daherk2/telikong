@@ -1,15 +1,11 @@
-import requests
-
-def chck_stackoverflow(e):
-    return str(requests.get('http://localhost:33335/exception/'+str(e).replace(' ', '%20').replace("'", '').replace('"','')).text)
+import telikong_cli as tcli
 
 ###################### Exemplo ########################
 try:
-    #a = 3/0
-    a = a.par
+    a = 3/0
     print a
 except Exception as e:
     try:
-        print chck_stackoverflow(e)
+        print tcli.chck_stackoverflow(e)
     except Exception as e:
-        print chck_stackoverflow(e)
+        print tcli.chck_stackoverflow(e)
