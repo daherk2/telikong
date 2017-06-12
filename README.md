@@ -14,7 +14,7 @@ What things you need to install the software and how to install them
 To use first:
                 Install req.txt using pip
                 Start server: chmod 777 runner.sh | ./runner.sh
-                Copy telikong_cli to your procject
+                Copy telikong_cli.py to your procject
                 Read teste.py to understand how it works.
 ```
 
