@@ -1,24 +1,26 @@
-# Project Title
+# Telikong - Find your issues automatically
 
-One Paragraph of project description goes here
+Telikong is a opensource project designed by Fabio Daher and Heverton Rodrigues to help developers a hole the world to try que solutions more fast directly from code do the right page on the solution about the issue
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To start use is just follow the way on teste.py
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+To use first:
+                Install req.txt using pip
+                Start server: python server.py
+                Copy telikong_cli to your procject
+                Read teste.py to understand how it works.
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
 
 ```
 Give the example
